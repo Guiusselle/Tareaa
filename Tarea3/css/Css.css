@@ -1,0 +1,141 @@
+body{
+  font-family: georgia, times, Serif;
+  color:#333;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+}
+p{
+  margin-bottom: 1.6em;
+  
+}
+ @media screen and (max-width: 780px){
+  p,h1{
+  font-size: 15px;
+
+}
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400);
+form{
+  padding: 60px;
+  max-width: 1000px;
+  background-color: #53A799;
+  margin: 0 auto;
+}
+
+form input, form textarea{
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+  border: none; 
+  color: #525c66; 
+  font-size: 1em;
+  resize: horizontal; 
+}
+
+form button {
+	display: block;
+	background-color: #0095eb;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 1em; 
+	color: 	white;
+  font-family: "Roboto", sans-serif;
+}
+form button: hover{
+	background-color: #E12D51;
+}
+
+#menu{
+	background-color: #000; 
+}
+#menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0; 
+}
+
+#menu ul li{
+	display: inline-block;
+}
+#menu ul li a{
+	color: white;
+	display: block;
+	padding: 20px 60px;
+	text-decoration: none;
+
+}
+#menu ul li a:hover{
+	background-color: #B84279;
+}
+.ggg{
+	float: right;
+}
+.lll{
+	float: left;
+}
+
+#cuadro2{
+  background-color: #4F95A0;
+  padding: 5px 5px 5px 5px;
+  color:white;
+  float: left;
+  width: 200px
+}
+#cuadro3{
+  background-color: #489D46;
+  padding: 5px 5px 5px 5px;
+  color:white;
+  float: right;
+  width: 200px
+}
+#cuadro{
+	background-color: #FFFFFF;
+	padding: 5px 5px 5px 5px;
+	color:black;
+	float: right;
+	width: 200px
+}
+#bigcuad2{
+	background-color: #489D46;
+	padding: 15px 15px 15px 15px;
+	text-align: left;
+	display: block;
+	max-width: 800px;
+	height: auto;
+}
+
+#bigcuad{
+	background-color: #269187;
+	padding: 15px 15px 15px 15px;
+	text-align: left;
+	display: block;
+	max-width: 1300px;
+	height: auto;
+}
+.bigcuad figure .cap{
+	background: rgba(0,103,123,0.6);
+	transition: all 500ms ease-out;
+	opacity: 0;
+}
+#foter{
+	background-color: #000000;
+	color: #9D9A9A;
+	font-size: 20px;
+	padding: 10px 10px 10px 10px;
+	max-width: 1300px;
+	height: 100;
+}
+.nrr {
+  width: 100%;
+}
+#ggc{
+    padding:20px;
+}
+#eto{
+     position: relative;
+}

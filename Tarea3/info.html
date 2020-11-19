@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt;>
+	<meta name="utf-8">
+	<title>info</title>
+	<link rel="stylesheet" type="text/css" href="css/Css.css"/>
+	<link rel="icon" type="image/png" href="imagenes/logo.png" />
+</head>
+<body>
+
+<header>
+<div id="menu">
+	<ul>
+		<li><img class="lll" src="imagenes/logo.png" align="cenetr" width="60" height="60"></a></li>
+		<li class="ggg"><a href="info.html">Registro</a></li>
+		<li class="ggg"><a href="servicios.html">Servicios</a></li>
+		<li class="ggg"><a href="aboutme.html">Filosofia</a></li>
+		<li class="ggg"><a href="index.html">Historia</a></li>
+		<li class="ggg"><a href="home.html">Home</a></li>
+	</ul>
+</div>
+<center>
+	<h1 class="ggg"><b><u>Instituto profecional<br><br> De Computación<br><br>I.P.C.</u></b></h1><a href="imagenes/icono.jpg"><img class="lll" src="imagenes/icon.png" align="cenetr" width="10%" height="10%"></a>
+	</center>
+</center>
+</header>
+<br><br><br><br><br><br><br><br>
+<nav  style=" text-align: center; list-style: none;padding: 0px;background-color: #000000 ;  width: 70%;max-width: 1000px;margin: auto;display:block;"  >
+<center><section  style="background-color: #D97878;padding: 45px 45px 45px 45px; text-align: left; display: block;	max-width: 1100px ; height: auto" >
+
+<form action="registro.php" method="POST">
+		<hr style="border-color:black;"><center><h2> <em>Formulario de Inscripción </em></h2></center>
+
+		<label for="nombre">Fecha de Inacripición: <span><em>(Requerido)</em></span></label>
+		<input type="date" name="fecha">
+		<br>
+		<label for="mail">Encargad@:<span><em>(Requerido)</em></span></label>
+		<input type="email" id="mail" name="user_email" placeholder="Nombre" required/><br>
+		<label for="dpi">DPI <span><em>(Requerido)</em></span></label>
+		<input type="text" name="dpi" class="form-input" required/>
+		<br>
+		<label for="nombre">Nombre alumn@ <span><em>(Requerido)</em></span></label>
+		<input type="text" name="nombre" class="form-input" required/>
+		<br>
+		<label for="apellido">Apellido del alumn@ <span><em>(Requerido)</em></span></label>
+		<input type="text" name="apellidp" class="form-input" required/>
+		<br>
+		<label for="apellido">Grado a inscribir <span><em>(Requerido)</em></span></label>
+		<select name="menu">
+  			<option selected>...</option>
+  			<optgroup label="Basicos">
+    		<option value="1">Primero</option>
+    		<option value="2">Segundo</option>
+    		<option value="3">Tercero</option>
+  			</optgroup>
+  			<optgroup label="Carreras">
+    		<option value="4">BACHILLERATO EN COMPUTACIÓN</option>
+    		<option value="5">PERITO CONTADOR EN COMPUTACIÓN</option>
+    		<option value="6">PERITO EN ADMINISTRACIÓN DE EMPRESAS</option>
+    		<option value="7">BACHILLERATO EN DISEÑO GRÁFICO ASISTIDO POR COMPUTADORA (PLAN DIADRIO)</option>
+    		</optgroup>
+  			<optgroup label="Sabados">
+    		<option value="8">Primero basico</option>
+    		<option value="9">Segundo Basico</option>
+    		<option value="10">Tercero basico</option>
+    		<option value="11">>BACHILLERATO EN COMPUTACIÓN</option>
+    		<option value="12">PERITO CONTADOR EN COMPUTACIÓN</option>
+    		<option value="13">PERITO EN ADMINISTRACIÓN DE EMPRESAS</option>
+  		</optgroup>	
+		</select>
+		<br><br>
+		<label> Papeleria completa <span><em>(Requerido)</em></span></label>
+		<input type="checkbox" id="cbox1" value="first_checkbox"></label>
+		<br>
+		<br>
+		<label> Pago de iscripción <span><em>(Requerido)</em></span></label>
+		<input type="checkbox" id="cbox1" value="first_checkbox"></label>
+
+		<input type="submit" class="form-btn" name="submit" value="Enviar"/><br>
+		<input type=reset name="Borrar" value="Borrar"/><hr style="border-color:black;">
+	</form>
+</section>
+</center>
+</nav>
+<br>
+<center>
+	<div id="foter"> 		
+		<footer><h6>Derechos reservados 2,020 2,025 ciudad de Guatemala 2020 <br> para Carpinteria El Hormigo</h6></footer>
+	</div>
+
+</center>
+</body>
+</html>
